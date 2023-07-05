@@ -6,13 +6,8 @@ function Footer() {
     'Andhra Pradesh',
     'Assam',
     'Bihar',
-    'Delhi',
+    'Telangana',
     'Gujarat',
-    'Haryana',
-    'Karnataka',
-    'Maharashtra',
-    'Rajasthan',
-    'Tamil Nadu',
     // Add more states here as needed
   ];
 
@@ -45,18 +40,18 @@ function Footer() {
               <div className="col-lg-3 col-md-6 footer-links">
                 <h4>NCERT Books</h4>
                 <ul>
-                  <li><a href="#">NCERT Books for Class 1</a></li>
-                  <li><a href="#">NCERT Books for Class 2</a></li>
-                  <li><a href="#">NCERT Books for Class 3</a></li>
-                  <li><a href="#">NCERT Books for Class 4</a></li>
-                  <li><a href="#">NCERT Books for Class 5</a></li>
-                  <li><a href="#">NCERT Books for Class 6</a></li>
-                  <li><a href="#">NCERT Books for Class 7</a></li>
-                  <li><a href="#">NCERT Books for Class 8</a></li>
-                  <li><a href="#">NCERT Books for Class 9</a></li>
-                  <li><a href="#">NCERT Books for Class 10</a></li>
-                  <li><a href="#">NCERT Books for Class 11</a></li>
-                  <li><a href="#">NCERT Books for Class 12</a></li>
+                  <li><a href="#"> Class 1</a></li>
+                  <li><a href="#"> Class 2</a></li>
+                  <li><a href="#"> Class 3</a></li>
+                  <li><a href="#"> Class 4</a></li>
+                  <li><a href="#">Class 5</a></li>
+                  <li><a href="#"> Class 6</a></li>
+                  <li><a href="#"> Class 7</a></li>
+                  <li><a href="#">Class 8</a></li>
+                  <li><a href="#"> Class 9</a></li>
+                  <li><a href="#"> Class 10</a></li>
+                  <li><a href="#"> Class 11</a></li>
+                  <li><a href="#"> Class 12</a></li>
                 </ul>
               </div>
 
