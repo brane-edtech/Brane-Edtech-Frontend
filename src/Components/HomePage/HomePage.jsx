@@ -12,15 +12,17 @@ import NewsComponent from './NewsComponent'
 const HomePage = () => {
   return (
     <>
-        <NavComponent />
-        <HomeChild1 />
-        <Features />
-        <Ourproject />
-        <LeadersVoice />
-        <ParentsVoice />
-        <LanguagesComponent />
-        <NewsComponent/>
-        <Footer />
+        <div className="HomePage__Main__Container">
+          <NavComponent />
+          <HomeChild1 />
+          <Features />
+          <Ourproject />
+          <LeadersVoice />
+          <ParentsVoice />
+          <LanguagesComponent />
+          <NewsComponent/>
+          <Footer />
+        </div>
     </>
   )
 }

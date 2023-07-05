@@ -141,7 +141,7 @@ body {
 }
 
 .Home__Div{
-    width: 84%;
+    width: 80%;
     margin: 0 auto;
     &__Child1{
         display: flex;
@@ -236,7 +236,7 @@ body {
 // Home Page Our Featues Styling
 
 .Features{
-    width: 84%;
+    width: 80%;
     margin: 2rem auto;
     color: $color3;
     &__Heading{
@@ -257,9 +257,7 @@ body {
                 color: $color13 !important;
                 text-decoration: none;
                 cursor: pointer;
-                padding: 0 0.5rem;
-                transition: all 0.3s ease;
-    
+                padding: 0 0.5rem;    
                 &.active {
                     border-bottom: 5px solid $color3;
                 }
@@ -320,7 +318,7 @@ body {
       justify-content: space-between;
       align-items: flex-start;
       padding: 1rem;
-      width: 84%;
+      width: 80%;
       margin: 0 auto;
   
       &__imageContainer{    
@@ -369,7 +367,7 @@ body {
         display: flex ;
         justify-content: center;
         align-items: center;
-        width: 84%;
+        width: 80%;
         margin: 0 auto;
         flex-direction: row-reverse;
         &-text{
@@ -397,7 +395,7 @@ body {
 }
 
 .ParentsVoice__Div {
-  width: 84%;
+  width: 80%;
   padding: 2.5rem 0;
   box-sizing: border-box;
   margin: 0 auto;
@@ -540,7 +538,7 @@ body {
     background-color: $color19;
     &__slide {
       display: flex;
-      width: 84%;
+      width: 80%;
       align-items: center;
       justify-content: center;
       gap: 3rem;
@@ -601,7 +599,7 @@ body {
     #footer {
       color: $color16;
       font-size: .75rem;
-      width: 84%;
+      width: 80%;
       margin: 0 auto;
       .footer-top {
         width: 100%;
@@ -720,7 +718,7 @@ body {
     &-child1{
       display: flex;
       padding: 1rem 0;
-      width: 84%;
+      width: 80%;
       margin: 0 auto;
       &-privacy-links{
         a{

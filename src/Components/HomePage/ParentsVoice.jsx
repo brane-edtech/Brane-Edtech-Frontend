@@ -8,24 +8,6 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Parentscarousel = () => {
-  const renderCustomPrevArrow = (onClickHandler, hasPrev, label) => {
-    return (
-      hasPrev && (
-        <button className="carousel-custom-arrow" onClick={onClickHandler}>
-          <img src={leftArrowImage} alt="Previous" />
-        </button>
-      )
-    );
-  };
-  const renderCustomNextArrow = (onClickHandler, hasNext, label) => {
-    return (
-      hasNext && (
-        <button className="carousel-custom-arrow" onClick={onClickHandler}>
-          <img src={rightArrowImage} alt="Next" />
-        </button>
-      )
-    );
-  };
   return (
     <div className='ParentsComponent'>
       <div className="ParentsVoice__Div">
@@ -34,8 +16,6 @@ const Parentscarousel = () => {
         </div>
         <Carousel
           className="ParentsVoice__Div__carousel"
-          renderArrowPrev={renderCustomPrevArrow}
-          renderArrowNext={renderCustomNextArrow}
           showStatus={false}
           showThumbs={false}
           showIndicators={false}
